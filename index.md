@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Joshua McCrae
 ---
 
 ## About Me
@@ -9,8 +9,8 @@ title: <Your Name>
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am [your pitch paragraph about your passions, knowledge and interestst.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+My name is {{ site.name }}, and I am a highly motivated Mechanical Engineering student, determined to one day join the electric vehicle (EV) industry. Passionate about the intersection of engineering and art/design, specifically in regards to the design of highly efficient passenger vehicles. Having experience in various applications of Mechanical Engineering such as CAD, CFD, FEA, DFX, Computer Programming, Robotics, and Process Engineering, my diverse skillset makes me a valuable asset to virtually any engineering team.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Along with my technical abilities, my communication and leadership skills allow me to thrive in management and developmental roles as well. I exemplify these qualities in my leadership roles as Treasurer of both the American Society of Mechanical Engineers (ASME) and the National Society of Black Engineers (NSBE). More quantifiably, in my latter position, I was responsible for more than $5000 in company sponsorships that were put towards funding the 2024 NSBE Region 1 Upstate Fall Zone Conference.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
