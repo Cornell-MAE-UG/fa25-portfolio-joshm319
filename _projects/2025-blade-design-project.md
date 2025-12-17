@@ -47,7 +47,7 @@ Lastly, we utilized SolidWorks to create the 3D model of our blade with all of t
 
 To test our blades' performance, we ran an ANSYS Fluent simulation to see how it would actually perform under the conditions we optimized it for. After running the simulation, we found that our wind turbine was able to generate a total power output of 11.03 W, which is higher than expected. We believe this is due to factors such as the specific model we used, the mesh quality, and the boundary conditions used.
 
-Furthermore, we also tested the performance of our blades in Big Blue (A open-return wind tunnel) where we were able to get our blades to generate a maximum power of ~1 W, which is significantly lower than our simulation results. Again, we believe this discrepacy was because of simulation choices, but we also believe that we were not able to fully measure the performance of our blade due to limitations of the torque brake.
+Furthermore, we also tested the performance of our blades in Big Blue (A open-return wind tunnel) where we were able to get our blades to generate a maximum power of ~3 W, which is significantly lower than our simulation results. Again, we believe this discrepacy was because of simulation choices, but we also believe that we were not able to fully measure the performance of our blade due to limitations of the torque brake.
 
 
 ## My Contribution: CFD
