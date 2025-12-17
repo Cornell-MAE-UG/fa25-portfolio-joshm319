@@ -3,7 +3,7 @@ layout: project
 title: Wind Turbine Blade Design Project
 description: Advanced CAD, MATLAB, and ANSYS Project
 technologies: [SolidWorks, MATLAB, ANSYS Fluent, ChatGPT]
-image: /assets/images/portfoliopfp.jpeg
+image: /assets/images/p_contour_3.png
 ---
 
 ## Project Overview
