@@ -20,7 +20,7 @@ The purpose of this project was to enhance our understanding of the various phen
 
 ## Design Process
 
-We began the design process with a brainstorming session to decide what characteristics we wanted our blade to have. After some discussion, we decided that our blade should be able to generate high torque at a low tip-speed ratio (TSR, λ≈3) and Reynolds number (Re≈1.55×10⁴). Next, we computed a target rotational speed for our blade of ~900 RPM given these choices. 
+We began the design process with a brainstorming session to decide what characteristics we wanted our blade to have. After some discussion, we decided that our blade should be able to generate high torque at a low tip-speed ratio (TSR, λ≈3) and low Reynolds number (Re≈1.55×10⁴). Next, we computed a target rotational speed for our blade of ~900 RPM given these choices. 
 
 With these values obtained, we then chose the specific airfoil that we would use as our blade cross-section. Ultimately, we decided on S1223 because it provides:
 
@@ -29,16 +29,18 @@ With these values obtained, we then chose the specific airfoil that we would use
 - gentle stall behavior
 - geometry compatible with Accura 25 printing
 
-Next, we wrote MATLAB program with the help of ChatGPT to create a parametric model of the blade based on the airfoil data and plotted the lift coefficient (CL) as a function of the angle-of-attack (α) for S1223 and NACA 4412 as a baseline:
+Next, we wrote a MATLAB program with the help of ChatGPT to create a parametric model of the blade based on the airfoil data and plotted the lift coefficient (CL) as a function of the angle-of-attack (α) for S1223 and NACA 4412 as a baseline:
 
 ![Lift coefficient (CL) as a function of angle of attack (α) for S1223 and NACA 4412]({{ "/assets/images/clvsalpha.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
-Then, we used optimal α (α=3°) from the S1223 airfoil data to determine the twist profile (β(r)) as a function of blade radius (r), resulting in:
+Then, we used optimal_α (α=3°) from the S1223 airfoil data to determine the twist profile (β(r)) as a function of blade radius (r), resulting in:
 
 r/R : 0.2 → 0.3 → 0.4 → 0.5 → 0.6 → 0.7 → 0.8 → 0.9
 β : 55.0 → 43.8 → 35.6 → 29.6 → 25.0 → 21.5 → 18.8 → 16.5
 
 Lastly, we utilized SolidWorks to create the 3D model of our blade with all of the values calculated above and had them printed.
+
+![Snapshots of Blade CAD]({{ "/assets/images/bladecad.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 ## Testing Summary
 
