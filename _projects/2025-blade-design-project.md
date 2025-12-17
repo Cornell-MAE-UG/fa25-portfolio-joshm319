@@ -42,9 +42,6 @@ Lastly, we utilized SolidWorks to create the 3D model of our blade with all of t
 
 ![Snapshots of Blade CAD]({{ "/assets/images/bladecad.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
-
-
-
 ## Testing Summary
 
 To test our blades' performance, we ran an ANSYS Fluent simulation to see how it would actually perform under the conditions we optimized it for. After running the simulation, we found that our wind turbine was able to generate a total power output of 11.03 W, which is higher than expected. We believe this is due to factors such as the specific model we used, the mesh quality, and the boundary conditions used.
