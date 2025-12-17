@@ -32,7 +32,7 @@ With these values obtained, we then chose the specific airfoil that we would use
 
 Next, we wrote MATLAB program with the help of ChatGPT to create a parametric model of the blade based on the airfoil data and plotted the lift coefficient (CL) as a function of the angle-of-attack (α) for S1223 and NACA 4412 as a baseline:
 
-! [Lift coefficient (CL) as a function of angle of attack (α) for S1223 and NACA 4412]({{ "/assets/images/clvsalpha.png" | relative_url }}){: .inline-image-r style="width: 400px"}
+![Lift coefficient (CL) as a function of angle of attack (α) for S1223 and NACA 4412] ({{ "/assets/images/clvsalpha.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 Then, we used optimal α (α=3°) from the S1223 airfoil data to determine the twist profile (β(r)) as a function of blade radius (r), resulting in:
 
@@ -43,15 +43,14 @@ Lastly, we utilized SolidWorks to create the 3D model of our blade with all of t
 
 ## Testing Summary
 
-To test our blades' performance, we ran an ANSYS Fluent simulation to see how it would actually perform under the conditions we optimized it for. 
+To test our blades' performance, we ran an ANSYS Fluent simulation to see how it would actually perform under the conditions we optimized it for. After running the simulation, we found that our wind turbine was able to generate a total power output of 11.03 W, which is higher than expected. We believe this is due to factors such as the specific model we used, the mesh quality, and the boundary conditions used.
 
-## My Contribution
-
-
+Furthermore, we also tested the performance of our blades in Big Blue (A open-return wind tunnel) where we were able to get our blades to generate a maximum power of ~1 W, which is significantly lower than our simulation results. Again, we believe this discrepacy was because of simulation choices, but we also believe that we were not able to fully measure the performance of our blade due to limitations of the torque brake.
 
 
+## My Contribution: CFD
 
-
+Here are some of the figures that I was able to generate by running my ANSYS Fluent simulation:
 
 
 ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
