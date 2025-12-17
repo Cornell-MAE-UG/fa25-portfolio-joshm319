@@ -32,7 +32,7 @@ With these values obtained, we then chose the specific airfoil that we would use
 
 Next, we wrote MATLAB program with the help of ChatGPT to create a parametric model of the blade based on the airfoil data and plotted the lift coefficient (CL) as a function of the angle-of-attack (α) for S1223 and NACA 4412 as a baseline:
 
-![Lift coefficient (CL) as a function of angle of attack (α) for S1223 and NACA 4412] ({{ "/assets/images/clvsalpha.png" | relative_url }}){: .inline-image-r style="width: 400px"}
+![Lift coefficient (CL) as a function of angle of attack (α) for S1223 and NACA 4412]({{ "/assets/images/clvsalpha.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 Then, we used optimal α (α=3°) from the S1223 airfoil data to determine the twist profile (β(r)) as a function of blade radius (r), resulting in:
 
@@ -51,6 +51,7 @@ Furthermore, we also tested the performance of our blades in Big Blue (A open-re
 ## My Contribution: CFD
 
 Here are some of the figures that I was able to generate by running my ANSYS Fluent simulation:
+
 
 
 ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
