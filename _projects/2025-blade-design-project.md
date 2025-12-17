@@ -2,8 +2,7 @@
 layout: project
 title: Wind Turbine Blade Design Project
 description: Advanced CAD, MATLAB, and ANSYS Project
-technologies: [SolidWorks, MATLAB, ANSYS, ChatGPT]
-image: /assets/images/radio-machine-cad.jpg
+technologies: [SolidWorks, MATLAB, ANSYS Fluent, ChatGPT]
 ---
 
 ## Project Overview
