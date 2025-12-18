@@ -2,7 +2,7 @@
 layout: project
 title: Engineering Ethics Write-up
 description: Summary of Assignments 6-9
-image: /assets/images/function-graph.png
+image: /assets/images/Boeing_737_MAX_8-1.jpg
 ---
 
 
